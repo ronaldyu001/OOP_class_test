@@ -10,7 +10,8 @@
 
 
 # Class:
-# Create a system to output information about someone's car. Be able to update the car's data.
+Create a system to output information about someone's car. Be able to update the car's data.
+
 Car
 
 -make: std::string
