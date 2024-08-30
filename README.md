@@ -10,15 +10,15 @@
 
 
 # Class:
-Create a system to output information about someone's car. Be able to update the car's data.        /
+Create a system to output information about someone's car. Be able to update the car's data.  
 
 Car
 
--make: std::string      /
--model: std::string     /
--year: std::string      /
--color: std::string     /
--price: std::string     /
+-make: std::string  
+-model: std::string  
+-year: std::string  
+-color: std::string  
+-price: std::string  
 
 +Car(make: std::string, model: std::string, year: std::string, color: std::string, price: std::float)
 +setmake(std::string): std::string
