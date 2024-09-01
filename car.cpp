@@ -25,7 +25,10 @@ std::string getmake(){
 }
 
 // setmake
+void setmake(std::string){
 
+    
+}
 
 // getmodel
 
