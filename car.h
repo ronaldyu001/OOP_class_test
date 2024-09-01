@@ -30,7 +30,13 @@ class car{
 
 
         // constructor
-        car(std::string make, std::string model, std::string year, std::string color, std::string price){}
+        car(std::string make, std::string model, std::string year, std::string color, std::string price){
+            make = "Audi";
+            model = "A5";
+            year = "2021";
+            color = "grey";
+            price = "$40,000";
+        }
 
 
         // getters and setters
