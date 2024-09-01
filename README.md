@@ -28,4 +28,7 @@ Car
 +setyear(std::string): std::string
 +getyear(): std::string
 +setcolor(std::string): std::string
-+
++getcolor(): std::string
++setprice(std::string): std::string
++getprice(): std::string
+
