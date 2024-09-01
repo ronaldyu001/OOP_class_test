@@ -36,23 +36,23 @@ class car{
         // getters and setters
         // make
         std::string getmake();
-        void setmake(std::string);
+        void setmake(std::string make);
         
         // model
         std::string getmodel();
-        void setmodel(std::string);
+        void setmodel(std::string model);
 
         // year
         std::string getyear();
-        void setyear(std::string);
+        void setyear(std::string year);
 
         // color
         std::string color();
-        void color(std::string);
+        void color(std::string color);
 
         //price
         std::string getprice();
-        void setprice(std::string);
+        void setprice(std::string price);
 
 
 };
