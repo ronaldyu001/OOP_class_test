@@ -21,14 +21,16 @@ Car
 -price: std::string  
 
 +Car(make: std::string, model: std::string, year: std::string, color: std::string, price: std::float)  
-+setmake(std::string): std::string  
++setmake(std::string): void
 +getmake(): std::string  
-+setmodel(std::string): std::string  
++setmodel(std::string): void  
 +getmodel(): std::string  
-+setyear(std::string): std::string  
++setyear(std::string): void  
 +getyear(): std::string  
-+setcolor(std::string): std::string  
++setcolor(std::string): void  
 +getcolor(): std::string  
-+setprice(std::string): std::string  
++setprice(std::string): void  
 +getprice(): std::string  
-
+  
+  
+# Errors Produced
