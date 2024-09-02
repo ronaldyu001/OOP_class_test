@@ -54,6 +54,19 @@ void car::setyear(std::string carYear){
     year = carYear;
 }
 
+// getcolor
+std::string car::getcolor(){
+
+    return color;
+}
+
+// setcolor
+void car::setcolor(std::string carColor){
+
+    color = carColor;
+}
+
+
 // getprice
 std::string car::getprice(){
 
@@ -66,3 +79,6 @@ void car::setprice(std::string carPrice){
     price = carPrice;
 }
 
+// constructor
+car::car()
+: make("Audi"), model("A5"), year("2021"), color("grey"), price("$40,000"){}

@@ -1,3 +1,16 @@
+/*********************************************************
+* Summary: This file includes the definition for the car class (implemented
+* in car.cpp).
+*
+* [More high-level program descriptions come here ]
+*
+* Author: Ronald Yu
+* Created: 9/1/2024
+* Summary of Modifications [if applicable]:
+* 9/1/2024 - 
+*
+********************************************************/
+
 #ifndef CAR_H
 #define CAR_H
 
@@ -15,7 +28,7 @@
 *
 * NOTES:
 * - Requires make, model, year, color, and price to be entered
-*   not intialize object of this class.
+*   to intialize object of this class.
 * *******************************************************/
 
 class car{
@@ -29,14 +42,8 @@ class car{
         std::string price;
 
 
-        // constructor
-        car(std::string make, std::string model, std::string year, std::string color, std::string price){
-            make = "Audi";
-            model = "A5";
-            year = "2021";
-            color = "grey";
-            price = "$40,000";
-        }
+        // declare default constructor
+        car();
 
 
         // getters and setters
@@ -53,8 +60,8 @@ class car{
         void setyear(std::string year);
 
         // color
-        std::string color();
-        void color(std::string color);
+        std::string getcolor();
+        void setcolor(std::string color);
 
         //price
         std::string getprice();
